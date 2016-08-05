@@ -1,0 +1,13 @@
+{
+    "name": "jiemo/thinkphp",
+    "type": "Library",
+    "authors": [
+        {
+            "name": "Cong Peijun",
+            "email": "congpeijun@tuozhongedu.com"
+        }
+    ],
+    "require": {
+        "php": ">5.4"
+    }
+}
