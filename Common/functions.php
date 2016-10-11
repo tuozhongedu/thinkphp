@@ -59,6 +59,10 @@ function C($name=null, $value=null,$default=null) {
  */
 function load_config($file,$parse=CONF_PARSE){
     $ext  = pathinfo($file,PATHINFO_EXTENSION);
+
+    if (!$ext) {
+        $ext = 'php';
+    }
     switch($ext){
         case 'php':
             return include $file;
