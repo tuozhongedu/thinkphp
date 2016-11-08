@@ -14,6 +14,7 @@ namespace Think;
  */
 class App {
 
+    public static $debug = true;
     /**
      * 应用程序初始化
      * @access public
